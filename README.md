@@ -1,4 +1,5 @@
-#***AI-Powered Assistive Navigation System***
+***AI-Powered Assistive Navigation System***
+
 Developed a real-time AI-based assistive navigation system for visually impaired users using YOLOv8, OpenCV, and Python, enabling intelligent obstacle detection and environmental awareness.
 Implemented spatial localization, proximity estimation, and danger-zone analysis to identify nearby obstacles and generate adaptive voice alerts through pyttsx3, enhancing user safety during navigation.
 Designed a low-latency computer vision pipeline integrating object detection, scene perception, and audio-guided assistance, providing real-time mobility support with high responsiveness.

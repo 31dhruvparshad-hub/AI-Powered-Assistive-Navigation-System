@@ -73,7 +73,7 @@ Real-Time Obstacle Detection • Spatial Awareness • Navigation Guidance
 
 @st.cache_resource
 def load_model():
-    return YOLO("yolov8m.pt")
+    return YOLO("yolov8n.pt")
 
 model = load_model()
 

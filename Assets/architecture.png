@@ -1,0 +1,13 @@
+Camera Feed
+     ↓
+YOLOv8 Detector
+     ↓
+Position Analysis
+     ↓
+Distance Estimation
+     ↓
+Danger Zone Analysis
+     ↓
+Decision Engine
+     ↓
+Voice Guidance

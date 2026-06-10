@@ -2,6 +2,7 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ccee9855-0d45-4b9b-807f-dadf926a019a" />
 
 
+
 ## Overview
 
 An AI-powered assistive navigation system designed to enhance independent mobility through real-time obstacle detection, spatial awareness, and intelligent voice guidance.
@@ -9,7 +10,7 @@ An AI-powered assistive navigation system designed to enhance independent mobili
 The system leverages YOLOv8-based object detection, proximity estimation, danger-zone analysis, and adaptive audio feedback to identify obstacles and provide navigation instructions in dynamic environments.
 
 ---
-
+## LIVE DEMO🌐:https://huggingface.co/spaces/dhruvp13/ai-powered-assistive-navigation-system
 ## Features
 
 * Real-Time Object Detection using YOLOv8

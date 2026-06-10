@@ -1,21 +1,82 @@
-***AI-Powered Assistive Navigation System***
+# AI-Powered Assistive Navigation System 
+![1054b383-70b3-4a75-8754-b01f6c20fcb0](https://github.com/user-attachments/assets/e2de6513-ae6e-4e4a-840f-0565bf857bf8)
 
-Developed a real-time AI-based assistive navigation system for visually impaired users using YOLOv8, OpenCV, and Python, enabling intelligent obstacle detection and environmental awareness.
-Implemented spatial localization, proximity estimation, and danger-zone analysis to identify nearby obstacles and generate adaptive voice alerts through pyttsx3, enhancing user safety during navigation.
-Designed a low-latency computer vision pipeline integrating object detection, scene perception, and audio-guided assistance, providing real-time mobility support with high responsiveness.
-Optimized detection and alert mechanisms to prioritize critical obstacles based on distance and position relative to the user, reducing response time and improving navigation accuracy.
-Engineered a scalable architecture capable of processing live video streams and delivering continuous auditory feedback for independent and safer movement in dynamic environments.
-Tech Stack
+## Overview
 
-![71358938-55da-45b7-9731-6e014c357859](https://github.com/user-attachments/assets/a288d89d-10c8-4a36-b6ea-2aba5e4da2b7)
-Python, YOLOv8, OpenCV, NumPy, pyttsx3, Computer Vision, Deep Learning, Real-Time Object Detection
+An AI-powered assistive navigation system designed to enhance independent mobility through real-time obstacle detection, spatial awareness, and intelligent voice guidance.
 
-Key Features
+The system leverages YOLOv8-based object detection, proximity estimation, danger-zone analysis, and adaptive audio feedback to identify obstacles and provide navigation instructions in dynamic environments.
 
-✅ Real-Time Object Detection
-✅ Audio-Based Navigation Assistance
-✅ Proximity Estimation
-✅ Danger Zone Analysis
-✅ Low-Latency Processing
-✅ Environmental Perception
-✅ Assistive Technology for Accessibility
+---
+
+## Features
+
+* Real-Time Object Detection using YOLOv8
+* Spatial Localization (Left / Center / Right)
+* Proximity Estimation
+* Danger Zone Analysis
+* Closest Obstacle Prioritization
+* Adaptive Voice Guidance
+* Real-Time Webcam Processing
+* FPS Monitoring
+* Accessibility-Focused Navigation Assistance
+
+---
+
+## System Architecture
+
+Camera Feed
+→ YOLOv8 Object Detection
+→ Position Detection
+→ Distance Estimation
+→ Danger Zone Analysis
+→ Navigation Decision Engine
+→ Audio Guidance
+
+---
+
+## Technology Stack
+
+* Python
+* YOLOv8
+* OpenCV
+* NumPy
+* PyTorch
+* pyttsx3
+
+---
+
+## Example Voice Alerts
+
+* "Person ahead. Move left."
+* "Chair ahead. Move right."
+* "Caution. Person on your left."
+* "Person nearby."
+
+---
+
+## Project Workflow
+
+1. Capture live video from webcam.
+2. Detect obstacles using YOLOv8.
+3. Determine obstacle position.
+4. Estimate obstacle proximity.
+5. Identify potential collision risks.
+6. Generate contextual voice guidance.
+
+---
+
+## Future Enhancements
+
+* Monocular Depth Estimation (MiDaS / Depth Anything)
+* Multi-Object Tracking
+* GPS Integration
+* Route Planning
+* Edge Deployment on Raspberry Pi
+* Emergency SOS System
+
+---
+
+## Author
+
+Dhruv Parshad

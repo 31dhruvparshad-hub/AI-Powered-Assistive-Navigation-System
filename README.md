@@ -1,5 +1,6 @@
 # AI-Powered Assistive Navigation System 
-![1054b383-70b3-4a75-8754-b01f6c20fcb0](https://github.com/user-attachments/assets/e2de6513-ae6e-4e4a-840f-0565bf857bf8)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ccee9855-0d45-4b9b-807f-dadf926a019a" />
+
 
 ## Overview
 
